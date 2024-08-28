@@ -1,0 +1,74 @@
+body
+{
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+    background-image:url('./src/person.jpg');
+}
+.head 
+{
+    text-align: center;
+    margin-bottom:40px ;
+}
+.accord
+{
+    background-color: aliceblue;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgb(255, 205, 255);
+    cursor: pointer;
+}
+.quest 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(172, 179, 181);
+    border-radius: 40px;
+    padding-left: 10px;
+    border:2px solid;
+}
+.icon
+{
+   margin-right: 16px;    
+   transition: transform 0.2s;  
+   color: rgb(14, 53, 6);
+}
+.icon.active
+{
+    transform: rotate(-180deg);
+}
+.ans
+{
+    background-color: rgb(194, 202, 188);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height  0.2s;
+    font-weight: bold;
+    text-align: left;
+    border: 2px solid;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.ans.active
+{
+max-height: fit-content;
+}
+
+.foot
+{
+    text-align: center;
+    font-weight: bold;
+}
+.yo
+{
+    text-align: center;
+    height: 200px;
+}
+.ico
+{
+    font-size: 50px;
+   
+}
